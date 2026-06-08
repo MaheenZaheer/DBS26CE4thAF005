@@ -11,7 +11,7 @@ namespace CourierDB.SoftwareClasses
     internal class DatabaseHelper
     {
         private static string connectionString =
-    "Server=localhost;Database=CourierDB;Uid=root;Pwd=2)Dkx&86c0;";
+    "Server=localhost;Database=CourierDB;Uid=root;Pwd=@maheen2024;";
 
         public static MySqlConnection GetConnection()
         {
